@@ -13,6 +13,7 @@ body {
 /* Container */
 .container {
 	width: 90%;
+	height: 100%;
 	margin-top: 0px;
 	padding-top: 7px;
 	margin-left: auto;
