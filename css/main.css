@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /* Body */
+html {
+	background-image: url("https://eliasbrodsky.github.io/images/water.gif");
+}
+
 body {
 	font-family: source-sans-pro;
 	background-image: url("https://eliasbrodsky.github.io/images/water.gif");
