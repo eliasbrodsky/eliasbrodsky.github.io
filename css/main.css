@@ -10,21 +10,21 @@ body {
 }
 /* unvisited link */
 a:link {
-  color: #6FE6DE;
+  color: #5BCBCF;
 }
 
 a:visited {
-  color: #6FE6DE;
+  color: #5BCBCF;
 }
 
 /* mouse over link */
 a:hover {
-  color: #2AF9EB;
+  color: #6FE6DE;
 }
 
 /* selected link */
 a:active {
-  color: #F92A59;
+  color: #F6FFFF;
 }
 /* Container */
 .container {
