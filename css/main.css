@@ -13,6 +13,10 @@ a:link {
   color: #6FE6DE;
 }
 
+a:visited {
+  color: #6FE6DE;
+}
+
 /* mouse over link */
 a:hover {
   color: #2AF9EB;
