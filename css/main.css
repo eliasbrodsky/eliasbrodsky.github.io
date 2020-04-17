@@ -8,6 +8,20 @@ body {
 	font-style: normal;
 	font-weight: 200;
 }
+/* unvisited link */
+a:link {
+  color: #6FE6DE;
+}
+
+/* mouse over link */
+a:hover {
+  color: #2AF9EB;
+}
+
+/* selected link */
+a:active {
+  color: #F92A59;
+}
 /* Container */
 .container {
 	width: 90%;
