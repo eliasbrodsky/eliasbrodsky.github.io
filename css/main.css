@@ -16,7 +16,7 @@ body {
 	padding-top: 7px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 0px;
+	margin-bottom: auto;
 	background-color: #292626;
 	color: #E3F1F0;
 	font-size: 20px;
@@ -228,12 +228,12 @@ ul li:hover a {
 /* More info */
 footer {
 	background-color: #FFFFFF;
-	padding-bottom: 35px;
+	/*padding-bottom: 35px;*/
 }
 .footer_column {
 	width: 50%;
 	text-align: center;
-	padding-top: 30px;
+	/*padding-top: 30px;*/
 	float: left;
 }
 footer .footer_column h3 {
