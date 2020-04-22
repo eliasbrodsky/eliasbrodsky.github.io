@@ -57,7 +57,7 @@ a:active {
     margin: 0 auto;
 	margin-top: -50px;
     height: 380px;
-    width: 400px;
+    width: 380px;
     -webkit-transition: -webkit-transform 50ms linear;
     -webkit-transform-style: preserve-3d;
     -webkit-transform: rotateX(-10deg) rotateY(20deg);
