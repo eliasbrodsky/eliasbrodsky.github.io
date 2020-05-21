@@ -289,7 +289,7 @@ footer {
 }
 
 /* Mobile */
-@media (max-width: 320px) {
+@media (max-width: 90vh) {
 .logo {
 	width: 100%;
 	text-align: center;
@@ -424,53 +424,6 @@ nav ul li {
 .footer_column {
 	width: 100%;
 	margin-top: 0px;
-}
-.parallax {
-	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 40%;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	width: 100%;
-	font-size: 18px;
-}
-.parallax_description {
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	margin-top: 30%;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	float: none;
-	width: 100%;
-	text-align: center;
-}
-.thumbnail {
-	width: 50%;
-}
-.parallax {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-top: 20%;
-}
-.parallax_description {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	padding-top: 30px;
 }
 .banner {
 	padding-left: 20px;
