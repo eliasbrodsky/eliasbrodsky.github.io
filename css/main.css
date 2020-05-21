@@ -298,15 +298,12 @@ footer {
 	margin-bottom: 0px;
 	margin-left: 0px;
 }
-.container-fluid {
-	width: auto;
-	min-height: 90vh;
-	/*height: 90%;*/
-	margin-top: 11px;
-	padding-top: 13px;
-	margin-left: 10vh;
-	margin-right: 10vh;
+.container header nav {
+	margin-top: 0px;
+	margin-right: 0px;
 	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
 	float: none;
 	display: none;
 }
