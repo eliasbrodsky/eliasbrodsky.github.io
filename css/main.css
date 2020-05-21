@@ -21,7 +21,7 @@
 }
 /* Body */
 body {
-	font-family: proxima-nova;
+	font-family: proxima_nova;
 	background: url("https://eliasbrodsky.github.io/images/water.gif");
 	margin: 0px;
 	height: auto;
@@ -59,7 +59,7 @@ a:active {
 	background-color: #131414;
 	color: #E3F1F0;
 	font-size: 20px;
-	font-family: proxima-nova;
+	font-family: proxima_nova;
 }
 /* box */
 .viewport {
