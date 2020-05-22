@@ -28,24 +28,6 @@ body {
 	font-style: normal;
 	font-weight: 200;
 }
-/* unvisited link */
-a:link {
-  color: #4fdbdb;
-}
-
-a:visited {
-  color: #4fdbdb;
-}
-
-/* mouse over link */
-a:hover {
-  color: #23fae8;
-}
-
-/* selected link */
-a:active {
-  color: #F6FFFF;
-}
 /* Container */
 .container-fluid {
 	width: auto;
@@ -60,6 +42,24 @@ a:active {
 	color: #E3F1F0;
 	font-size: 20px;
 	font-family: proxima_nova_rgregular;
+}
+/* unvisited link */
+.container-fluid a:link {
+  color: #4fdbdb;
+}
+
+.container-fluid a:visited {
+  color: #4fdbdb;
+}
+
+/* mouse over link */
+.container-fluid a:hover {
+  color: #23fae8;
+}
+
+/* selected link */
+.container-fluid a:active {
+  color: #F6FFFF;
 }
 /* box */
 .viewport {
@@ -98,7 +98,12 @@ a:active {
 }
 
 .cube a {
-    color: #fff;
+    text-decoration: none !important;
+}
+
+.cube a:hover {
+    color: #23fae8;
+    text-decoration: none;
 }
 
 .cube > div {
@@ -142,7 +147,32 @@ user-select: none; /* Standard */
   -o-transition: color 600ms;
   transition: color 600ms; }
   .cube > div > div.cube-image.active {
-    color: #5BCBCF; }
+    color: #4fdbdb; }
+
+.cube > div > div.cube-image a {
+    color: #fff !important;
+    text-decoration: none !important
+  -webkit-transition: color 600ms;
+  -moz-transition: color 600ms;
+  -ms-transition: color 600ms;
+  -o-transition: color 600ms;
+  transition: color 600ms;
+}
+
+/*.cube > div > div.cube-image a:hover
+    color: #fff;
+    text-decoration: none;
+}*/
+
+.cube > div > div.cube-image.active a {
+    color: #4fdbdb !important;
+    text-decoration: none !important;
+}
+
+.cube > div > div.cube-image.active a:hover {
+    color: #23fae8 !important
+    text-decoration: none !important;
+}
 
 .cube > div:hover {
   cursor: pointer; }
@@ -274,6 +304,7 @@ footer {
 }
 
 .copyright-fluid {
+	font-family: proxima_nova_rgregular;
 	text-align: center;
 	color: #FFFFFF;
 	font-weight: lighter;
