@@ -61,6 +61,11 @@ body {
   color: #F6FFFF;
 }
 /*idk yet*/
+
+#name {
+	font-family: proxima_nova_rgbold;
+}
+
 #wrapper {
 	/*margin-top: 5vh;
 	margin-left: 15vh;
