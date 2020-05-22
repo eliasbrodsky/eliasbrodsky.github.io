@@ -90,6 +90,10 @@ body {
 	line-height: 20%;
 }
 
+#smallspaces {
+	line-height: 1px;
+}
+
 /* Navigation */
 header nav ul {
 	list-style: none;
