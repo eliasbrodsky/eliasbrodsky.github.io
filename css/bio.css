@@ -61,6 +61,16 @@ body {
 .container-fluid a:active {
   color: #F6FFFF;
 }
+/*idk yet*/
+#wrapper {
+	margin-top: 10vh;
+	margin-left: 10vh;
+	margin-right: 10vh;
+	margin-bottom: 10vh;
+	font-size: 20px;
+	font-family: proxima_nova_rgregular;
+}
+
 /* box */
 .viewport {
     -webkit-perspective: 800px;
