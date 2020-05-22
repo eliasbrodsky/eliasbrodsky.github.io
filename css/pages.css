@@ -21,7 +21,6 @@
 }
 /* Body */
 body {
-	font-family: proxima_nova;
 	background: url("https://eliasbrodsky.github.io/images/water.gif");
 	margin: 0px;
 	height: auto;
@@ -71,7 +70,16 @@ body {
 	font-family: proxima_nova_rgregular;
 }
 
-/* box */
+#comingsoon {
+	margin-top: 5vh;
+	margin-left: 15vh;
+	margin-right: 15vh;
+	margin-bottom: auto;
+	font-size: 50px;
+	font-family: proxima_nova_rgbold;
+}
+
+/* box*/
 .viewport {
     -webkit-perspective: 800px;
     -webkit-perspective-origin: 50% 200px;
@@ -274,7 +282,7 @@ object {
 
 object:hover {
     opacity: 1;
-}
+} 
 /* Navigation */
 header nav ul {
 	list-style: none;
