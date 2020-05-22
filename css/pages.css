@@ -68,7 +68,7 @@ body {
 	margin-bottom: auto;
 	font-size: 20px;
 	text-align: center;
-	position: fixed;
+	position: absolute;
 	font-family: proxima_nova_rgregular;
 }
 
