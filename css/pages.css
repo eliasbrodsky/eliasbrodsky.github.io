@@ -149,7 +149,7 @@ footer {
 }
 
 /* Mobile */
-@media (max-width: auto) {
+@media (max-width: 320) {
 .logo {
 	width: 100%;
 	text-align: center;
@@ -187,6 +187,11 @@ nav ul li {
 }
 .thumbnail {
 	width: 100%;
+}
+.container-fluid {
+	width: auto;
+	margin-left: 3vh;
+	margin-right: 3vh;
 }
 .footer_column {
 	width: 100%;
@@ -280,6 +285,11 @@ nav ul li {
 }
 .thumbnail {
 	width: 100%;
+}
+.container-fluid {
+	width: auto;
+	margin-left: 4vh;
+	margin-right: 4vh;
 }
 .footer_column {
 	width: 100%;
