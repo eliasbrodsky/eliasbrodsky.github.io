@@ -66,12 +66,12 @@ body {
 	font-family: proxima_nova_rgbold;
 }
 #wrapper {
-	/*margin-top: 5vh;
+	/*margin-top: 5vh;*/
 	margin-left: 15vh;
 	margin-right: 15vh;
-	margin-bottom: auto;*/
+	/*margin-bottom: auto;*/
 	font-size: 20px;
-	text-align: center;
+	text-align: left; /*this one here*/
 	/*position: static;*/
 	font-family: proxima_nova_rgregular;
 }
@@ -80,6 +80,7 @@ body {
 	margin-left: 15vh;
 	margin-right: 15vh;
 	margin-bottom: auto;*/
+	text-align: center;
 	font-size: 60px;
 	font-family: proxima_nova_rgbold;
 }
