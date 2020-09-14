@@ -19,9 +19,9 @@ function openTab(evt, tabName) {
   evt.currentTarget.className += " active";
 } 
 
-<button class="tablinks" onclick="openTab(event, 'Solo')" id="defaultOpen">Solo</button>
+//<button class="tablinks" onclick="openTab(event, 'Solo')" id="defaultOpen">Solo</button>
 
-<script>
+//<script>
 // Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script> 
+//document.getElementById("defaultOpen").click();
+//</script> 
