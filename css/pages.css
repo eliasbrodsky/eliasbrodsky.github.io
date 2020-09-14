@@ -65,6 +65,36 @@ body {
 #name {
 	font-family: proxima_nova_rgbold;
 }
+/*idk yet*/
+#name {
+	font-family: proxima_nova_rgbold;
+}
+#wrapper {
+	/*margin-top: 5vh;
+	margin-left: 15vh;
+	margin-right: 15vh;
+	margin-bottom: auto;*/
+	font-size: 20px;
+	text-align: center;
+	/*position: static;*/
+	font-family: proxima_nova_rgregular;
+}
+#comingsoon {
+	/*margin-top: 5vh;
+	margin-left: 15vh;
+	margin-right: 15vh;
+	margin-bottom: auto;*/
+	font-size: 60px;
+	font-family: proxima_nova_rgbold;
+}
+#spaces {
+	letter-spacing: 6px;
+	line-height: 20%;
+}
+#smallspaces {
+	line-height: 1px;
+}
+
 /* Navigation */
 header nav ul {
 	list-style: none;
