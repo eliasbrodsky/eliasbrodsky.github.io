@@ -18,3 +18,10 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 } 
+
+<button class="tablinks" onclick="openTab(event, 'Solo')" id="defaultOpen">Solo</button>
+
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script> 
