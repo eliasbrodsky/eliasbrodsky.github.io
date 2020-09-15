@@ -235,6 +235,11 @@ nav ul li {
 	margin-left: 3vh;
 	margin-right: 3vh;
 }
+#wrapper {
+	margin-left: 1vh;
+	margin-right: 1vh;
+	/*font-size: 20px; jury is still out on this */
+}
 .footer_column {
 	width: 100%;
 	margin-top: 0px;
@@ -332,6 +337,11 @@ nav ul li {
 	width: auto;
 	margin-left: 4vh;
 	margin-right: 4vh;
+}
+#wrapper {
+	margin-left: 1vh;
+	margin-right: 1vh;
+	/*font-size: 20px; jury is still out on this */
 }
 .footer_column {
 	width: 100%;
