@@ -102,12 +102,13 @@ body {
 .tab {
   overflow: hidden;
   border: none;
-  background-color: #f1f1f1;
+  background-color: #131414;
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
   background-color: #131414;
+  color: #4fdbdb;
   float: left;
   border: none;
   outline: none;
